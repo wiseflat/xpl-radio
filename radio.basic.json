@@ -1,6 +1,16 @@
 [
-	{ "device":1, "type":"file", "value":"lib/resources/alarm1.wav", "command":"idle" },
-	{ "device":2, "type":"file", "value":"lib/resources/noise.wav", "command":"idle" },
-	{ "device":3, "type":"radio", "value":"http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-128k.m3u", "command":"idle" },
-	{ "device":3, "type":"radio", "value":"http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-128k.m3u", "command":"stop" }
+	{ "device":1, "type":"radio", "value":"http://streaming.radio.rtl.fr/rtl-1-44-96", "command":"idle" },
+	{ "device":2, "type":"radio", "value":"http://cache.yacast.fr/V4/rmc/rmc.m3u", "command":"stop" },
+        { "device":3, "type":"radio", "value":"http://live.europe1.fr/V4/europe1/europe1.asx", "command":"stop" },
+        { "device":4, "type":"radio", "value":"http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-128k.m3u", "command":"stop" },
+        { "device":5, "type":"radio", "value":"http://players.creacast.com/creacast/france_info/playlist.m3u", "command":"stop" },
+        { "device":6, "type":"radio", "value":"http://www.tv-radio.com/station/france_culture_mp3/france_culture_mp3-128k.m3u", "command":"stop" },
+        { "device":7, "type":"radio", "value":"http://cache.yacast.net/V4/bfm/bfm.m3u", "command":"stop" },
+        { "device":8, "type":"radio", "value":"http://www.tv-radio.com/cgi-bin/tagger.pl?tag=site&metafile=voltage/voltage-20k.asx", "command":"stop" },
+        { "device":9, "type":"radio", "value":"http://player.rireetchansons.fr/V4/rireetchansons/rireetchansons.asx", "command":"stop" },
+        { "device":10, "type":"radio", "value":"http://player.cheriefm.fr/V4/cheriefm/cheriefm.asx", "command":"stop" },
+        { "device":11, "type":"radio", "value":"http://player.skyrock.com/V4/skyrock/skyrock.asx", "command":"stop" },
+        { "device":12, "type":"radio", "value":"http://player.nrj.fr/V4/nrj/nrj.asx", "command":"stop" },
+        { "device":13, "type":"radio", "value":"http://www.tv-radio.com/station/fip_mp3/fip_mp3-128k.m3u", "command":"stop" },
+        { "device":14, "type":"radio", "value":"http://www.novaplanet.com/radio-nova/player/radionova.m3u.php", "command":"stop" }
 ]
