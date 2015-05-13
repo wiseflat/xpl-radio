@@ -1,0 +1,1 @@
+cp radio.basic.json radio.config.json /etc/wiseflat
