@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /tmp
+apt-get -y install mplayer
